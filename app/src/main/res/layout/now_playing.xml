@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".NowPlayingActivity"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/ivAlbumArt"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="15dp"
+        android:src="@drawable/album_art_placeholder"/>
+
+    <TextView
+        android:id="@+id/tvSongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/track_title"
+        android:textSize="28sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/artist"
+        android:textSize="22sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvAlbumTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/album"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/ivPreviousTrack"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ic_skip_previous_grey_24dp"/>
+
+        <ImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/ic_play_arrow_grey_24dp"/>
+
+        <ImageView
+            android:id="@+id/ivNextTrack"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_skip_next_grey_24dp"/>
+
+
+    </LinearLayout>
+
+ </LinearLayout>

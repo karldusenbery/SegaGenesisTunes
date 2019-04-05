@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sega Genesis Tunes</string>
+    <string name="app_intro">Sega Genesis Tunes is an app designed to play music from the games on Sega\'s Genesis video games.</string>
+    <string name="default_folder_info">This app will look for music file in the following folder: SegaGenesisMusic \nPlease place your music files in that folder.</string>
+    <string name="file_browser_button">File Browser</string>
+    <string name="now_playing_button">Now Playing</string>
+    <string name="playlist_button">Playlist</string>
+    <string name="fileBrowser_activity_title">File Browser</string>
+    <string name="nowPlaying_activity_title">Now Playing</string>
+    <string name="playlist_activity_title">Playlist</string>
+    <string name="artist">Masato Nakamura</string>
+    <string name="album">Sonic The Hedgehog 2</string>
+    <string name="track_title">Emerald Hill Zone</string>
+</resources>
